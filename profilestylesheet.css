@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(185, 75%,39%);
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 45vw bottom 45vh , 45vw 45vh ;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center; 
+}
+p{
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+span{
+    font-weight: 400;
+    color:hsl(0, 0%, 59%);
+}
+
+ .container{
+    padding: 15px;
+    background-image: url(./images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(0, 0%, 95%);
+    width: 300px;
+    height: 350px;
+    margin:auto;
+    border-radius:15px;
+}
+.profile{
+    margin-top: 50px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.profile-picture{
+    margin-top: 20px;
+    border-radius: 50%;
+    border: 5px solid hsl(0, 0%, 95%);
+}
+.bio{
+    margin-top: 1rem;
+    line-height: 2rem;
+}
+.line{
+    height: 1px;
+    background: hsl(0, 0%, 83%);
+}
+.stats{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.attribution{
+    font-size: 10px;
+    padding-top: 50px;
+}
